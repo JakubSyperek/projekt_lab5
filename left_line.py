@@ -9,7 +9,7 @@ def left_line(tree: BinaryTree) -> List[BinaryNode]:
     lista = [tree.root.value]
     wezel = tree.root
 
-    while wezel.left_child is not None:
+    while wezel.left_child != None:
         lista.append(wezel.left_child.value)
         wezel = wezel.left_child
     return lista
