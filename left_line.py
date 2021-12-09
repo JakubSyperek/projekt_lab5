@@ -1,3 +1,5 @@
+##zadanie jest niedokończone, mam nieznane problemy związane z BinaryTree, przez które funkcja left_line nie może zadziałać.
+
 from typing import Any, List
 from BinaryNode import BinaryNode
 from BinaryTree import BinaryTree
